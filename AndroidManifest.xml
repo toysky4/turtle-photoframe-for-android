@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="net.greenturtles.photoframe"
+      android:versionCode="7"
+      android:versionName="1.1beta">
+    <application android:icon="@drawable/icon" android:label="@string/app_name"
+    	android:theme="@style/TurtleTheme"
+		>
+        <activity android:name=".Introduction"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".ConfigurationActivity_2x4" android:label="@string/label_name_2x4" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ConfigurationActivity_2x2" android:label="@string/label_name_2x2" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ConfigurationActivity_4x4" android:label="@string/label_name_4x4" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name="RegularSizeWidget_4x4" android:label="@string/label_name_4x4">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.appwidget.action.APPWIDGET_ENABLE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/imageswidget_info_4x4" />
+        </receiver>
+        <receiver android:name="RegularSizeWidget_4x4">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.appwidget.action.APPWIDGET_ENABLE" />
+				<action android:name="net.greenturtles.photoframe.RegularSizeWidget_4x4.onclick" />
+                <data android:scheme="images_widget_4x4" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="RegularSizeWidget_2x4" android:label="@string/label_name_2x4">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.appwidget.action.APPWIDGET_ENABLE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/imageswidget_info_2x4" />
+        </receiver>
+        <receiver android:name="RegularSizeWidget_2x4">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.appwidget.action.APPWIDGET_ENABLE" />
+				<action android:name="net.greenturtles.photoframe.RegularSizeWidget_2x4.onclick" />
+                <data android:scheme="images_widget_2x4" />
+            </intent-filter>
+        </receiver>
+        
+        <receiver android:name="RegularSizeWidget_2x2" android:label="@string/label_name_2x2">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.appwidget.action.APPWIDGET_ENABLE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/imageswidget_info_2x2" />
+        </receiver>
+        <receiver android:name="RegularSizeWidget_2x2">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.appwidget.action.APPWIDGET_ENABLE" />
+				<action android:name="net.greenturtles.photoframe.RegularSizeWidget_2x2.onclick" />
+                <data android:scheme="images_widget_2x2" />
+            </intent-filter>
+        </receiver>
+        
+    </application>
+    <uses-sdk android:minSdkVersion="3" />
+
+</manifest> 
