@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">乌龟相册</string>
+    <string name="label_name_2x4">乌龟相册 (2x4)</string>
+    <string name="label_name_4x4">乌龟相册 (4x4)</string>
+    <string name="label_name_2x2">乌龟相册 (2x2)</string>
+	<string name="pick_file">选择文件</string>
+	<string name="pick_folder">选择文件夹</string>
+    <string name="configure_intro">乌龟相册 配置信息</string>
+	<string name="configure_update">图片停留时间 (秒)</string>
+	<string name="update_rate_tip">在每张图片的停留时间。如果您希望单击相片时才切换，请设置为 0。</string>
+	<string name="save_config">完成</string>
+	<string name="no_image_picked">无相片</string>
+	<string name="count_image_picked">%s 张相片</string>
+	<string name="no_update_rate">请输入图片停留时间，以秒为单位</string>
+    <string name="introduction">关于 乌龟相册</string>
+	<string name="AboutUs_Content">\n“乌龟相册”是Android Market上第一个真正意义的电子相框Widget程序，它可以对指定文件夹中的所有图片逐个播放。\n\n开发乌龟相册纯粹是基于个人兴趣和需要，如果您喜欢这个应用程序或者有任何建议，请发信给作者LvLv@greenturtles.net；如果您不喜欢，麻烦您卸载它。\n\n下面是本Widget应用程序的一些截图。\n</string>
+    <string name="exit">我明白了</string>
+	<string name="AboutUs_Version">版本号: %s Build %s\</string>
+    <string name="configure_frame_background">相框颜色</string>
+    <string-array name="frame_type_array">
+        <item>白色薄边框</item>
+        <item>白色厚边框</item>
+        <item>黑色薄边框</item>
+        <item>黑色厚边框</item>
+    </string-array>
+</resources>

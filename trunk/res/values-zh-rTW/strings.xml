@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">烏龜相冊</string>
+    <string name="label_name_2x4">烏龜相冊 (2x4)</string>
+    <string name="label_name_4x4">烏龜相冊 (4x4)</string>
+    <string name="label_name_2x2">烏龜相冊 (2x2)</string>
+	<string name="pick_file">選擇文件</string>
+	<string name="pick_folder">選擇文件夾</string>
+    <string name="configure_intro">烏龜相冊 配置信息</string>
+	<string name="configure_update">圖片停留時間 (秒)</string>
+	<string name="udpate_rate_hint">每張圖片的停留時間</string>
+    <string name="update_rate_tip">每張圖片的停留時間。如果您希望單機相片時才切換，請設置為 0。</string>
+	<string name="save_config">完成</string>
+	<string name="no_image_picked">無相片</string>
+	<string name="count_image_picked">%s 張相片</string>
+	<string name="no_update_rate">請輸入圖片停留時間，以秒為單位</string>
+    <string name="introduction">關於 烏龜相冊</string>
+	<string name="AboutUs_Content">\n“烏龜相冊”是Android Market上第一個真正意義的電子相框Widget程序，它可以對指定文件夾中的所有圖片逐個播放。\n\n開發烏龜相冊純粹是基於個人興趣和需要，如果您喜歡這個應用程序或者有任何建議，請發新給作者LvLv@greenturtles.net；如果您不喜歡，麻煩您卸載它。\n\n下面是本Widget應用程序的一些截圖。\n</string>
+    <string name="exit">我明白了</string>
+	<string name="AboutUs_Version">版本號: %s Build %s\</string>
+    <string name="configure_frame_background">相框顏色</string>
+    <string-array name="frame_type_array">
+        <item>白色薄邊框</item>
+        <item>白色厚邊框</item>
+        <item>黑色薄邊框</item>
+        <item>黑色厚邊框</item>
+    </string-array>
+</resources>

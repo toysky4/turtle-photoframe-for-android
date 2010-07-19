@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Turtle Photoframe</string>
+    <string name="label_name_2x4">Turtle Photoframe (2x4)</string>
+    <string name="label_name_4x4">Turtle Photoframe (4x4)</string>
+    <string name="label_name_2x2">Turtle Photoframe (2x2)</string>
+	<string name="pick_file">Pick file</string>
+	<string name="pick_folder">Pick folder</string>
+    <string name="configure_intro">Configuration for Turtle Photoframe</string>
+	<string name="configure_update">Show time (in seconds)</string>
+	<string name="update_rate_tip">Stay time for each image. Set it "0" if you want to switch image by manual click only.</string>
+	<string name="save_config">Save</string>
+	<string name="no_image_picked">No picture selected</string>
+	<string name="count_image_picked">%s picture(s)</string>
+	<string name="no_update_rate">Please input a "Show Time" in seconds</string>
+    <string name="introduction">About Turtle Photoframe</string>
+	<string name="AboutUs_Content">\nTurtle Photoframe is the first and the only free digital photo frame widget on Android Market. The widget can do slide show for all pictures within the specified folder.\n\nIt is developed purly for personal interest. If you love it or have any suggestion, please tell me at LvLv@greenturtles.net. If you hate it, you are legally allowed to delete it.\n\nSome snapshots are here below.\n</string>
+    <string name="exit">I see</string>
+	<string name="AboutUs_Version">Verion: %s build %s\</string>
+    <string name="configure_frame_background">Frame type</string>
+    <string-array name="frame_type_array">
+        <item>White and Thin</item>
+        <item>White and Thick</item>
+        <item>Black and Thin</item>
+        <item>Black and Thick</item>
+    </string-array>
+</resources>
