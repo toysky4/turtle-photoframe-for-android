@@ -14,9 +14,9 @@
 	<string name="count_image_picked">%s picture(s)</string>
 	<string name="no_update_rate">Please input a "Show Time" in seconds</string>
     <string name="introduction">About Turtle Photoframe</string>
-	<string name="AboutUs_Content">\nTurtle Photoframe is the first and the only free digital photo frame widget on Android Market. The widget can do slide show for all pictures within the specified folder.\n\nIt is developed purly for personal interest. If you love it or have any suggestion, please tell me at LvLv@greenturtles.net. If you hate it, you are legally allowed to delete it.\n\nSome snapshots are here below.\n</string>
+	<string name="AboutUs_Content">\nTurtle Photoframe is the first and the only free digital photo frame widget on Android Market. The widget can do slide show for all pictures within the specified folder.\n\nIt is developed purely for personal interest. If you love it or have any suggestion, please tell me at LvLv@greenturtles.net. If you hate it, you are legally allowed to delete it.\n\nSome snapshots are here below.\n</string>
     <string name="exit">I see</string>
-	<string name="AboutUs_Version">Verion: %s build %s\</string>
+	<string name="AboutUs_Version" formatted="false">Version: %s build %s\</string>
     <string name="configure_frame_background">Frame type</string>
     <string-array name="frame_type_array">
         <item>White and Thin</item>
