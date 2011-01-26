@@ -16,7 +16,7 @@
     <string name="introduction">关于 乌龟相册</string>
 	<string name="AboutUs_Content">\n“乌龟相册”是Android Market上第一个真正意义的电子相框Widget程序，它可以对指定文件夹中的所有图片逐个播放。\n\n开发乌龟相册纯粹是基于个人兴趣和需要，如果您喜欢这个应用程序或者有任何建议，请发信给作者LvLv@greenturtles.net；如果您不喜欢，麻烦您卸载它。\n\n下面是本Widget应用程序的一些截图。\n</string>
     <string name="exit">我明白了</string>
-	<string name="AboutUs_Version">版本号: %s Build %s\</string>
+	<string name="AboutUs_Version" formatted="false">版本号: %s Build %s\</string>
     <string name="configure_frame_background">相框颜色</string>
     <string-array name="frame_type_array">
         <item>白色薄边框</item>
