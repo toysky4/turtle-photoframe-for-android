@@ -238,7 +238,9 @@ public abstract class RegularSizeWidgetBase extends AppWidgetProvider {
 
             // schedule the updating
             AlarmManager alarms = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
-            alarms.setRepeating(AlarmManager.ELAPSED_REALTIME, SystemClock.elapsedRealtime(), updateRateSeconds * 1000, newPending);
+            alarms.setRepeating(AlarmManager.ELAPSED_REALTIME,
+                    SystemClock.elapsedRealtime() + updateRateSeconds * 1000,
+                    updateRateSeconds * 1000, newPending);
         }
     }
     
